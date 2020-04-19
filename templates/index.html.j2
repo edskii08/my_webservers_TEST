@@ -5,5 +5,5 @@ Current Host: {{ ansible_hostname }} <br>
 Server list: <br>
 {% for host in groups['all'] %}
 {{ host }} <br>
-Deployment Version: {{ deployment_version }} <br>
 {% endfor %}
+Deployment Version: {{ deployment_version }} <br>
